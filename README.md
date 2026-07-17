@@ -1,2 +1,18 @@
 # typescript-as-go
-Agent skill for writing TypeScript as if it were Go: simple, explicit, boring 🦫
+
+An agent skill that teaches coding agents to write TypeScript as if it were Go:
+
+- Simple
+- Explicit
+- No magic
+
+## Why
+
+I wrote Go (by hand) for ~10 years before LLMs arrived and found it easy to follow due to how
+restricted it is as a language. By design it is boring, as there are such few ways to implement
+something.
+
+Contrasting that with Typescript, it is a language that allows for a far greater amount of magic,
+which makes reading code slower for me personally. Given that reading and reviewing code is now of
+far greater importance, my theory is that simpler code that achieves the same desired outcome, is a
+good thing.
