@@ -6,7 +6,7 @@ compatibility: Designed for Claude Code (or similar products)
 metadata:
   author: revett
   repo: https://github.com/revett/typescript-as-go
-  version: v0.1.0
+  version: 0.1.0
 ---
 
 # TypeScript As Go

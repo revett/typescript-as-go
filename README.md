@@ -14,7 +14,10 @@ Install the skill:
 npx skills add revett/typescript-as-go
 ```
 
-The add the following to your `AGENTS.md`:
+This installs into the current project and works with Claude Code, Cursor, Cline, and 75+ other
+agents. Add `-g` to install it globally, and run `npx skills update` to pull the latest version.
+
+Then add the following to your `AGENTS.md`:
 
 ```md
 ## Code Style
