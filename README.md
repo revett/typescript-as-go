@@ -6,6 +6,23 @@ An agent skill that teaches coding agents to write TypeScript as if it were Go:
 - Explicit
 - No magic
 
+## Usage
+
+Install the skill:
+
+```bash
+npx skills add revett/typescript-as-go
+```
+
+The add the following to your `AGENTS.md`:
+
+```md
+## Code Style
+
+It is critically important that you abide by all the rules set out in `typescript-as-go` skill when
+writing Typescript, no exceptions.
+```
+
 ## Why
 
 I wrote Go (by hand) for ~10 years before LLMs arrived and found it easy to follow due to how
