@@ -8,6 +8,10 @@ An agent skill that teaches coding agents to write TypeScript as if it were Go:
 - Explicit
 - No magic
 
+![GitHub Release](https://img.shields.io/github/v/release/revett/typescript-as-go?style=flat-square)
+![GitHub License](https://img.shields.io/github/license/revett/typescript-as-go?style=flat-square)
+![GitHub Repo stars](https://img.shields.io/github/stars/revett/typescript-as-go?style=social)
+
 ## Usage
 
 Install the skill:
