@@ -1,6 +1,12 @@
 ---
 name: typescript-as-go
-description: Enforce agents to write TypeScript as if it were Go; simple, explicit, boring.
+description: Enforce agents to write TypeScript as if it were Go; simple, explicit, boring
+license: MIT
+compatibility: Designed for Claude Code (or similar products)
+metadata:
+  author: revett
+  repo: https://github.com/revett/typescript-as-go
+  version: v0.1.0
 ---
 
 # TypeScript As Go
