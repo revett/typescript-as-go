@@ -1,3 +1,5 @@
+<img src="topher.png" width="150px" />
+
 # typescript-as-go
 
 An agent skill that teaches coding agents to write TypeScript as if it were Go:
@@ -22,8 +24,8 @@ Then add the following to your `AGENTS.md`:
 ```md
 ## Code Style
 
-It is critically important that you abide by all the rules set out in `typescript-as-go` skill when
-writing Typescript, no exceptions.
+It is critically important that you abide by all the rules set out in `typescript-as-go`
+skill when writing Typescript, no exceptions.
 ```
 
 ## Why
