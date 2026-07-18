@@ -42,3 +42,7 @@ Contrasting that with Typescript, it is a language that allows for a far greater
 which makes reading code slower for me personally. Given that reading and reviewing code is now of
 far greater importance, my theory is that simpler code that achieves the same desired outcome, is a
 good thing.
+
+## Acknowledgements
+
+- Thanks to the writers of [Effective Go](https://go.dev/doc/effective_go)
