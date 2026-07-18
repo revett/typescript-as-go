@@ -20,8 +20,8 @@ Install the skill:
 npx skills add revett/typescript-as-go
 ```
 
-This installs into the current project and works with Claude Code, Cursor, Cline, and 75+ other
-agents. Add `-g` to install it globally, and run `npx skills update` to pull the latest version.
+This installs into the current project and works with Claude Code, Cursor, Codex, and 75+ other
+agents. Add `-g` to install it globally.
 
 Then add the following to your `AGENTS.md`:
 
@@ -30,6 +30,12 @@ Then add the following to your `AGENTS.md`:
 
 It is critically important that you abide by all the rules set out in the
 `typescript-as-go` skill when writing Typescript, no exceptions.
+```
+
+To update the skill to the latest version:
+
+```bash
+npx skills update typescript-as-go
 ```
 
 ## Why
