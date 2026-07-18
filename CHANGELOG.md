@@ -2,6 +2,10 @@
 
 All notable changes to this skill are recorded here, newest first, following semantic versioning.
 
+## v0.3.0
+
+- Added allowed rule: the formatter (e.g. Biome), if configured, is law and decides output
+
 ## v0.2.0
 
 - Added allowed rule: separate a trailing `return` from the block above it with a blank line
