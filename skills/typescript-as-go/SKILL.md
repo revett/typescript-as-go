@@ -6,7 +6,7 @@ compatibility: Designed for Claude Code (or similar products)
 metadata:
   author: revett
   repo: https://github.com/revett/typescript-as-go
-  version: 0.2.0
+  version: 0.3.0
 ---
 
 # TypeScript As Go
@@ -67,6 +67,8 @@ writing Typescript.
     signing, a mock server), but hand roll the moment it drags in a framework or SDK you do not need
 21. Separate a trailing `return` from the block above it with a blank line, so the final result of a
     function reads as its own beat rather than crowding the guard or loop that precedes it
+22. The formatter, if there is one configured (e.g. Biome), is law, it decides and nobody debates
+    the output
 
 ### Banned
 
