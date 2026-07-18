@@ -1,7 +1,13 @@
 # Changelog
 
-All notable changes to this skill are recorded here, newest first, following semantic versioning as
-described in the README
+All notable changes to this skill are recorded here, newest first, following semantic versioning.
+
+## v0.2.0
+
+- Added allowed rule: separate a trailing `return` from the block above it with a blank line
+- Banned defaulting through `??` and `||`; use an `if` or a file local helper (`stringOr`,
+  `numberOr`), keeping `||` only inside boolean conditions
+- Banned chained array pipelines (`.filter().map()`) and `.reduce`; write an explicit `for...of`
 
 ## v0.1.0
 

@@ -43,6 +43,10 @@ which makes reading code slower for me personally. Given that reading and review
 far greater importance, my theory is that simpler code that achieves the same desired outcome, is a
 good thing.
 
+## Changelog
+
+See [CHANGELOG.md](./CHANGELOG.md) for a list of all notable changes to the skill.
+
 ## Acknowledgements
 
 - Thanks to the writers of [Effective Go](https://go.dev/doc/effective_go)
