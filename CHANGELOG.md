@@ -2,6 +2,11 @@
 
 All notable changes to this skill are recorded here, newest first, following semantic versioning.
 
+## v0.5.1
+
+- Changed the test file rule: test files are exempt from the file layout order and are never resorted
+  to match their source, reading instead as a narrative from central to peripheral, happy path first
+
 ## v0.5.0
 
 - Added a file layout section: symbols are declared in a fixed order, sorted by kind, then export
