@@ -2,6 +2,15 @@
 
 All notable changes to this skill are recorded here, newest first, following semantic versioning.
 
+## v0.4.0
+
+- Clarified that only a *production* file outgrowing itself triggers a package folder split; tests
+  always sit beside their code and never trigger it alone
+- Added rule: a package folder's primary file repeats the package name (`vault/vault.ts`), never an
+  `index.ts` barrel
+- Added rule: never stutter the enclosing package name in an exported symbol (`vault.Reader`, not
+  `vault.VaultReader`)
+
 ## v0.3.0
 
 - Added allowed rule: the formatter (e.g. Biome), if configured, is law and decides output
