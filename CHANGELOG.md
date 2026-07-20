@@ -2,6 +2,14 @@
 
 All notable changes to this skill are recorded here, newest first, following semantic versioning.
 
+## v0.5.0
+
+- Added a file layout section: symbols are declared in a fixed order, sorted by kind, then export
+  status, then alphabetically (case insensitive), with the framework class shell and default export
+  last
+- Added rule: test files group cases by the symbol under test in source declaration order, with the
+  happy path first, then guards, failures, and edge cases
+
 ## v0.4.0
 
 - Clarified that only a *production* file outgrowing itself triggers a package folder split; tests
